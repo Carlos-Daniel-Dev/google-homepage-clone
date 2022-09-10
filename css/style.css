@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#pagina {
+    background-color: #202124;
+    height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 48px;
+    padding: 6px;
+    margin-bottom: 18px;
+}
+header a {
+    padding: 8px;
+}
+header a img {
+    width: 24px;
+    height: auto;
+}
+#area-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo-google {
+    height: 92px;
+    width: 272px;
+    margin-bottom: 30px;
+}
+#area-pesquisa {
+    width: 582px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 8px 0 14px;
+    border: 1px solid #5f6368;
+    border-radius: 50px;
+}
+#area-pesquisa .icon-pesquisa {
+    width: 24px;
+    height: 24px;
+}
+#lupa {
+    width: 20px;
+    height: auto;
+    margin-right: 13px;
+}
+#area-pesquisa #input-pesquisa {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+}
+#buttons-area {
+    margin-top: 26px;
+}
+#buttons-area .botao-extra {
+    background-color: #303134;
+    border: 0;
+    height: 34px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-inline: 4px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+#oferecido {
+    margin-top: 30px;
+    color: rgb(209, 209, 209);
+
+}
+#language {
+    color: #86b4c6;
+}
+@media only screen and (max-width: 600px) {
+    
+    #area-pesquisa {
+        width: 90%;
+    }
+}
+  
